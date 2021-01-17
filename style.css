@@ -1,0 +1,80 @@
+h1 {
+    color: blue;
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px 30%;
+}
+
+form {
+    font-size: 1rem;
+    color: darkgray;
+    background-color: lightyellow;
+}
+
+form label,
+form legend {
+    width: 40%;
+    float: left;
+}
+
+form input {
+    width: 60%;
+}
+
+form div {
+    overflow: hidden;
+    /* clear: both; */
+    padding: 5px;
+
+}
+
+form>div>fieldset {
+    border: 0;
+    /* padding: 10px; */
+    padding: 0;
+    margin: 0;
+}
+
+form>div>fieldset>div>div>label {
+    font-size: 0.9rem;
+    color: black;
+    padding-left: 0.6rem;
+}
+
+form textarea {
+    width: 100%;
+}
+
+/* form/div[6]/div */
+
+form>div>div {
+    padding-left: 0;
+}
+
+
+form>div>fieldset>div>div>input {
+    width: auto;
+    float: left;
+    /* margin-left: 0; */
+}
+
+/* xpath full path */
+/* /html/body/div/form/div[7]/fieldset/div/div[1] */
+form>div>fieldset>div>div {
+    padding: 0;
+}
+
+.cities>div>input {
+    width: auto;
+    float: left;
+}
+
+form input:focus {
+    border: 3px solid orange;
+}
